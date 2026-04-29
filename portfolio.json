@@ -39,24 +39,21 @@
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
+      "company": "Vector Informatik GmbH",
+      "url": "https://www.vector.com/de/de/unternehmen/kontakt/vector-germany/",
+      "start_date": "01/10/2023",
+      "end_date": "30/09/2024",
+      "summary": "Tooling for process automation",
       "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+        "Development of Python-based automation solutions for Jira workflows",
+        "Support for technical DevOps requests and tooling"
       ]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "Creating my own LLM",
+      "summary": "visualize how LLMs are built",
       "highlights": [
         "First Highlight of Project One",
         "Second Highlight of Project One",
@@ -81,6 +78,29 @@
       "title": "My Second Project",
       "summary": "Short summary about my second project",
       "url": "https://sample.com",
+      "highlights": [
+        "First Highlight of Project Two",
+        "Second Highlight of Project Two",
+        "Third Highlight of Project Two"
+      ],
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=4",
+          "caption": "Image Caption 4"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=5",
+          "caption": "Image Caption 5"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=6",
+          "caption": "Image Caption 6"
+        }
+      ]
+    }, 
+    {
+      "title": "Flappy Bird",
+      "summary": "Fun game for relaxing",
       "highlights": [
         "First Highlight of Project Two",
         "Second Highlight of Project Two",

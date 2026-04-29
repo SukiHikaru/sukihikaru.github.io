@@ -48,7 +48,31 @@
         "Development of Python-based automation solutions for Jira workflows",
         "Support for technical DevOps requests and tooling"
       ]
+    }, 
+    {
+      "company": "MicroFuzzy GmbH Munich",
+      "url": "https://microfuzzy.com/",
+      "start_date": "01/01/2020",
+      "end_date": "31/08/2023",
+      "summary": "Tooling for process automation",
+      "highlights": [
+        "Requirements Manager using Doors for ECUs in Drive and Charging Infrastructure",
+        "Process Automation in Python"
+      ]
+    }, 
+    {
+      "company": "BMW Group",
+      "url": "https://www.bmwgroup.com/de.html",
+      "start_date": "15/03/2022",
+      "end_date": "30/09/2022",
+      "summary": "Tooling for process automation",
+      "highlights": [
+        "Automation of procurement processes, HR and procurement audits in Python",
+        "Providing support with technical questions within the audit team", 
+        "Defining a digitalization strategy for the department"
+      ]
     }
+    
   ],
   "projects": [
     {
@@ -85,10 +109,6 @@
         {
           "img_path": "img/flappy_bird.png",
           "caption": "Image Extract"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
         }
        
       ]
@@ -128,6 +148,11 @@
     {
       "name": "Python",
       "proficiency": 100,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "REST API",
+      "proficiency": 70,
       "proficiency_label": "Proficiency Level"
     },
     {

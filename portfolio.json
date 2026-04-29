@@ -1,6 +1,6 @@
 {
   "name": "Hong Ngoc Nguyen",
-  "image_path": "img/default-image.jpg",
+  "image_path": "img/default-image.png",
   "contact": {
     "email": "hongnnguyen24@gmail.com",
     "phone": "+491631979817",
@@ -27,8 +27,8 @@
   ],
   "work_experience": [
     {
-      "company": "Working Student System Engineering",
-      "url": "https://sample.com",
+      "company": "Rohde & Schwarz GmbH & Co. KG",
+      "url": "https://www.rohde-schwarz.com/de/startseite_48230.html",
       "start_date": "15/10/2024",
       "end_date": "Present",
       "summary": "Short summary about present job and what the position entails",

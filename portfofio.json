@@ -1,7 +1,6 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Hong Ngoc Nguyen",
+  //"image_path": "img/default-image.png",
   "contact": {
     "email": "FirstLast@Sample.com",
     "phone": "123-456-7890",

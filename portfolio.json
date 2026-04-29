@@ -31,11 +31,11 @@
       "url": "https://www.rohde-schwarz.com/de/startseite_48230.html",
       "start_date": "15/10/2024",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
+      "summary": "Python development of a requirements management tool with a REST API (Jama & Jazz)",
       "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
+        "Developing requirement management tool",
+        "Implementing LLM for error dectection in requirement",
+        "Genereting new requirement processes"
       ]
     },
     {

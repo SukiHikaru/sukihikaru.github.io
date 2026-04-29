@@ -1,28 +1,27 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Hong Ngoc Nguyen",
+  "image_path": "img/default-image.jpg",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "hongnnguyen24@gmail.com",
+    "phone": "+491631979817",
+    "location": "Munich Germany"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "Passionated Python developer with a background in requirements engineering and process development. Proactive learner to new topics and tackling new challenges.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
       "label": "Personal Website",
-      "url": "https://sample.com",
+      "url": "https://sukihikaru.github.io/",
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/hong-ngoc-nguyen-868947404",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "Github",
+      "url": "https://github.com/SukiHikaru",
       "svg_path": "img/github.svg"
     }
   ],

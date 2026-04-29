@@ -1,15 +1,21 @@
+"""
+Fill the scripts with info from portfolio.json
+"""
+
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+import pprint
 
 from jinja2 import Environment, FileSystemLoader
 
 # Load JSON data
+
 with Path("portfolio.json").open(encoding="utf-8") as f:
     data = json.load(f)
 
 # Add any extra context if needed
-data["current_year"] = datetime.now(timezone.utc).year # 
+data["current_year"] = datetime.now(timezone.utc).year
 
 if "social_links" in data:
     for link in data["social_links"]:
@@ -17,18 +23,17 @@ if "social_links" in data:
             with Path(link["svg_path"]).open(encoding="utf-8") as svg_file:
                 link["svg_data"] = svg_file.read()
 
+
 # Set up Jinja environment
-env = Environment(loader=FileSystemLoader("."), autoescape=True)
+
+env= Environment(loader=FileSystemLoader("."), autoescape=True)
 index_template = env.get_template("index_template.html")
 resume_template = env.get_template("resume_template.html")
 
-# Render the template with the data
+
+# Render the template with the data 
 html_output = index_template.render(**data)
 resume_output = resume_template.render(**data)
-
-# This is equivalent to...
-# html_output = index_template.render(name=data["name"], label=data["label"]...)
-# resume_output = resume_template.render(name=data["name"], label=data["label"]...)
 
 # Write the output to an HTML file
 with Path("index.html").open("w", encoding="utf-8") as f:

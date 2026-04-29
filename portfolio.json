@@ -52,59 +52,34 @@
   ],
   "projects": [
     {
-      "title": "Creating my own LLM",
-      "summary": "visualize how LLMs are built",
+      "title": "Error Detection Performance from LLMs",
+      "summary": "How accurate could LLM recognize errors in data",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "Which use for which LLM",
+        "How do LLMS react to certain cases",
+        "Performance improvement"
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
+          "img_path": "img/performance_llm.png",
+          "caption": "Core Points in Requirement Engineering"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
+          "img_path": "img/trade_off_llm",
+          "caption": "Accuracy vs Speed"
         }
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
-      "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
-        }
-      ]
+      "title": "Scripting Tool XML reader",
+      "summary": "Replace data in xml"
+      
     }, 
     {
-      "title": "Flappy Bird",
-      "summary": "Fun game for relaxing",
+      "title": "Flappy Bird & Space Shooter",
+      "summary": "Fun Game for relaxing",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
+        "Insight into Game Ingeneering"
       ],
       "images": [
         {
@@ -114,11 +89,8 @@
         {
           "img_path": "https://picsum.photos/600/338?random=5",
           "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
         }
+       
       ]
     }
   ],
@@ -135,20 +107,8 @@
         "Second Duty of Current Organization",
         "Third Duty of Current Organization"
       ]
-    },
-    {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
-      ]
     }
+    
   ],
   "education": [
     {
